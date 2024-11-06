@@ -23,14 +23,14 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.hci.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_diary"
+        android:name="com.example.hci.ui.Diary.DiaryFragment"
+        android:label="@string/title_diary"
+        tools:layout="@layout/fragment_diary" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.hci.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_lighting"
+        android:name="com.example.hci.ui.Lighting.LightingFragment"
+        android:label="@string/title_lightinig"
+        tools:layout="@layout/fragment_lighting" />
 </navigation>
